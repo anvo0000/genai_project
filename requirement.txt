@@ -1,0 +1,9 @@
+transformers
+streamlit
+langchain-community
+tensorflow
+python-dotenv
+dataset
+sentencepiece
+huggingface
+matplotlib
