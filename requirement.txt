@@ -7,3 +7,6 @@ dataset
 sentencepiece
 huggingface
 matplotlib
+requests
+beautifulsoup4
+ollama
