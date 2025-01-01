@@ -1,12 +1,4 @@
-transformers
-streamlit
-langchain-community
-tensorflow
-python-dotenv
-dataset
-sentencepiece
-huggingface
-matplotlib
 requests
 beautifulsoup4
 ollama
+langchain-ollama
