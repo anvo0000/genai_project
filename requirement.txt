@@ -3,3 +3,7 @@ beautifulsoup4
 ollama
 langchain-ollama
 langchain_community
+langchain-aws==0.1.2
+boto3
+faiss-cpu
+pypdf
