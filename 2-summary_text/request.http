@@ -1,0 +1,6 @@
+POST https://nprskvlaik.execute-api.us-west-2.amazonaws.com/dev/text?points=2
+Content-Type: application/json
+
+{
+    "text": "According to him, GPT-4V has been trained on a lot of different software interfaces and the underlying code bases, which unlocked new possibilities. \"When you show an interface, it understands the feature behind the button,\" Mercier said. Unlike Zapier and other automation products, Twin Labs doesn't rely on APIs and designing complicated multi-step processes. Instead, Twin Labs is more like a web browser. The tool can automatically load web pages, click on buttons and enter text."
+}
