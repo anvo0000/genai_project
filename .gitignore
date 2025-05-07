@@ -2,3 +2,14 @@
 .env
 .idea/*
 misc./*
+__pycache__/*
+*.pyc
+.vscode/settings.json
+vectordb/db/*
+1-chatbot/chatbot_logs.json
+3-rag_complex/db/chromadb_rag.db/*
+4-rag-pdf/chroma_db/*
+langchain/db/chromadb/*
+4-rag-pdf/pdf/*
+files/*
+4-rag-pdf/demo/demo.mov
