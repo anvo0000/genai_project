@@ -9,3 +9,5 @@ faiss-cpu
 pypdf
 openai
 chromadb
+pandas
+streamlit
