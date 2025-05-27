@@ -1,0 +1,13 @@
+name: myenv3.12
+channels:
+  - defaults
+dependencies:
+  - numpy<2.0
+  - transformers==4.44.1
+  - huggingface_hub[cli]
+  - huggingface_hub[hf_xet]
+  - pip:
+      - accelerate
+      - bitsandbytes
+      - hf_xet
+prefix: /Users/AnVo/miniconda3/envs/myenv3.12
