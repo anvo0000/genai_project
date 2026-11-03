@@ -10,6 +10,8 @@ This guide helps you set up your environment and run `dev_model_quantization.py`
 
 ## Setup Instructions
 
+All commands below assume your working directory is `7-fine-tuning/`.
+
 ### 1. Create and Activate Conda Environment
 
 ```bash

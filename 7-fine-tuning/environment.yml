@@ -10,4 +10,3 @@ dependencies:
       - accelerate
       - bitsandbytes
       - hf_xet
-prefix: /Users/AnVo/miniconda3/envs/myenv3.12
