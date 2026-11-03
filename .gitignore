@@ -1,9 +1,10 @@
 .venv
 .env
 .idea/*
-misc./*
+misc/*
 __pycache__/*
 *.pyc
+.DS_Store
 .vscode/settings.json
 vectordb/db/*
 1-chatbot/chatbot_logs.json
@@ -13,3 +14,6 @@ langchain/db/chromadb/*
 4-rag-pdf/pdf/*
 files/*
 4-rag-pdf/demo/demo.mov
+chroma_db/*
+5-ai-agent/db/*
+5-ai-agent/An Vo_badge.pdf
