@@ -88,18 +88,17 @@ graph TD
 
 ### Status (repo coverage)
 
+The repo folders are numbered and named to match the stages above.
+
 | Stage | Status | Repo folder(s) |
 |---|---|---|
-| 1. Core Skills | ⬜ Not started | — (no dedicated folder yet) |
-| 2. Core AI Application Skills | 🟨 Partial | `0-openai_prompt_engineering/`, `vectordb/` — Pinecone and pg_vector not yet covered |
-| 3. Platforms and Ecosystem | 🟨 Partial | `1-chatbot/` (Ollama), `aws-bedrock-rag/` (Bedrock), prompt-engineering folder (OpenAI) — Hugging Face Hub not yet covered directly |
-| 4. Advanced Architectures | ✅ Covered (overlapping) | `langchain/`, `3-rag_complex/`, `4-rag-pdf/`, `aws-bedrock-rag/` (RAG); `5-ai-agent/` (Agentic AI, CrewAI) |
-| 5. Evaluation, Safety and Observability | ⬜ Not started | — |
-| 6. Deployment and MLOps | ⬜ Not started | — |
-| 7. Fine-Tuning and Specialization | ✅ Covered | `6-fine-tuning/` (quantization on Apple Silicon) |
-
-`2-summary_text/` is a small applied project (summarization) that draws on Stage 2 skills rather
-than mapping to its own stage.
+| 1. Core Skills | ⬜ Not started | `1-core-skills/` (placeholder) |
+| 2. Core AI Application Skills | 🟨 Partial | `2-core-ai-app-skills/prompt-engineering/`, `2-core-ai-app-skills/vectordb/` — Pinecone and pg_vector not yet covered. `2-core-ai-app-skills/summary-text/` is a small applied project drawing on these skills. |
+| 3. Platforms and Ecosystem | 🟨 Partial | `3-platforms-ecosystem/ollama-chatbot/` (Ollama), `3-platforms-ecosystem/aws-bedrock-rag/` (Bedrock) — OpenAI used throughout Stage 2/4 folders, Hugging Face Hub not yet covered directly |
+| 4. Advanced Architectures | ✅ Covered (overlapping) | `4-advanced-architectures/langchain/`, `4-advanced-architectures/rag-complex/`, `4-advanced-architectures/rag-pdf/` (RAG); `4-advanced-architectures/ai-agent/` (Agentic AI, CrewAI) |
+| 5. Evaluation, Safety and Observability | ⬜ Not started | `5-evaluation-safety-observability/` (placeholder) |
+| 6. Deployment and MLOps | ⬜ Not started | `6-deployment-mlops/` (placeholder) |
+| 7. Fine-Tuning and Specialization | ✅ Covered | `7-fine-tuning/` (quantization on Apple Silicon) |
 
 ### Sources
 

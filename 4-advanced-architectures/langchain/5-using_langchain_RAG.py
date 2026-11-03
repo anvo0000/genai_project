@@ -26,7 +26,7 @@ def clean_text(text):
     return text.lower()
 
 # 1-Document Loader
-documents = TextLoader("../files/twin_ai_agent.txt").load()
+documents = TextLoader("../../files/twin_ai_agent.txt").load()
 
 # 2-Text Splitters: will do the splitting text into chunks
 text_splitter = RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=50)

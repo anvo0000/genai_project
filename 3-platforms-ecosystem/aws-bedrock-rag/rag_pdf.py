@@ -16,7 +16,7 @@ bedrock_text = BedrockLLM(model_id=BEDROCK_TEXT_MODEL, client=bedrock)
 bedrock_embeddings = BedrockEmbeddings(model_id=BEDROCK_EMBED_MODEL, client=bedrock)
 
 #Loading Data
-loader = PyPDFLoader(file_path="../files/MLA-C01.pdf")
+loader = PyPDFLoader(file_path="../../files/MLA-C01.pdf")
 spliter = RecursiveCharacterTextSplitter(separators=["\n\n"], chunk_size=200)
 docs = loader.load()
 spliter_docs = spliter.split_documents(docs)

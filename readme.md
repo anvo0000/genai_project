@@ -7,48 +7,26 @@ to excel in developing and deploying generative AI applications.
 
 ## Overview
 
-The Generative AI Application Engineer Roadmap is a structured guide that outlines the key skills, technologies, and concepts needed to master generative AI application development. It is visualized as a flowchart and is divided into five main stages, each focusing on critical areas of expertise.
+The full roadmap — diagram, stage descriptions, and a coverage table of what's implemented — lives in
+[`GenAI Application Roadmap.md`](./GenAI%20Application%20Roadmap.md). It currently has 7 stages, from
+Core Skills through Fine-Tuning. This readme just maps those stages onto the folders in this repo.
 
-### Roadmap Stages
+## Repository structure
 
-1. **Core Skills:**  
-   Develop foundational programming and AI knowledge, including:
-   - Python: APIs (e.g., `requests`, `fastapi`), Object-Oriented Programming (OOP), and Error Handling.
-   - AI Fundamentals: Understanding key differences between Machine Learning (ML) and Generative AI, as well as Transformer models and Large Language Models (LLMs).
-   - AI Security: Familiarize yourself with the AI OWASP Top 10.
+Each top-level folder is numbered and named after the roadmap stage it implements:
 
-2. **Core AI Application Skills:**  
-   Focus on practical AI application techniques:
-   - **Prompt Engineering**: Learn how to design effective prompts for AI models.
-   - **Text Embeddings**: Understand how text embeddings work in AI systems.
-   - **Vector Databases**: Explore tools like ChromaDB, FAISS, Pinecone, and pg_vector for efficient data storage and retrieval.
+| Folder | Stage |
+|---|---|
+| `1-core-skills/` | 1. Core Skills *(placeholder — not started)* |
+| `2-core-ai-app-skills/` | 2. Core AI Application Skills — `prompt-engineering/`, `vectordb/`, `summary-text/` |
+| `3-platforms-ecosystem/` | 3. Platforms and Ecosystem — `ollama-chatbot/`, `aws-bedrock-rag/` |
+| `4-advanced-architectures/` | 4. Advanced Architectures — `langchain/`, `rag-complex/`, `rag-pdf/`, `ai-agent/` |
+| `5-evaluation-safety-observability/` | 5. Evaluation, Safety and Observability *(placeholder — not started)* |
+| `6-deployment-mlops/` | 6. Deployment and MLOps *(placeholder — not started)* |
+| `7-fine-tuning/` | 7. Fine-Tuning and Specialization |
 
-3. **Platforms and Ecosystem:**  
-   Gain expertise in platforms and tools for AI deployment:
-   - OpenAI API
-   - AWS Bedrock
-   - Hugging Face Hub
-   - Local LLMs with Ollama
-
-4. **Advanced Architectures:**  
-   Dive into cutting-edge generative AI architectures:
-   - **LangChain**: Tools for chaining AI workflows.
-   - **RAG (Retrieval-Augmented Generation)**: Techniques for combining search and generation.
-   - **Agentic AI**: Autonomous AI agents that can make decisions and take actions.
-
-5. **Deployment and MLOps:**  
-   Learn how to deploy and manage AI models effectively:
-   - Docker
-   - Kubernetes
-   - LLM Ops concepts for managing AI workflows in production.
-
-## Repository Contents
-
-This repository contains the following:
-
-- **Roadmap Visualization**: A detailed roadmap diagram created using Mermaid.js.
-- **Guides and Documentation**: Resources for learning the skills and tools mentioned in the roadmap.
-- **Code Examples**: Practical code snippets and demos for applying roadmap concepts.
+Each stage folder (and most sub-folders) has its own readme with setup/run instructions for that
+specific project.
 
 ## Getting Started
 
