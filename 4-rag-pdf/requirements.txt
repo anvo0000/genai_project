@@ -1,3 +1,5 @@
 PyPDF2
 streamlit
 openai
+python-dotenv
+chromadb

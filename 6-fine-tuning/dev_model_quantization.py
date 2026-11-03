@@ -11,7 +11,8 @@ print("START", datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
 # 8-bit quantization is not supported on MPS, use 4-bit if needed
 bnb_config = BitsAndBytesConfig(load_in_4bit=True)
 
-model_name = "TinyLlama/TinyLlama-1.1B-Chat-v1.0"
+# model_name = "meta-llama/Llama-3.1-8B-Instruct" # 30GB
+model_name = "TinyLlama/TinyLlama-1.1B-Chat-v1.0" # 4GB
 quantized_model = AutoModelForCausalLM.from_pretrained(
     model_name,
     device_map={"": device},

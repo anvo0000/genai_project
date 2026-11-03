@@ -4,3 +4,5 @@ faiss-cpu
 unstructured
 libmagic
 selenium
+newspaper3k
+lxml-html-clean
