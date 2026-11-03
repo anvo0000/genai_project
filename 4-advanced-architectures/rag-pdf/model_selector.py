@@ -18,11 +18,6 @@ class ModelSelector:
                 "model_name": "text-embedding-3-small",
                 "dimensions": 1536
             },
-            "chroma": {
-                "name": "ChromaDB Default",
-                "model_name": None,
-                "dimensions": 384
-            },
         }
 
 

@@ -1,15 +1,17 @@
 .venv
 .env
 .idea/*
-misc./*
 __pycache__/*
 *.pyc
+.DS_Store
 .vscode/settings.json
-vectordb/db/*
-1-chatbot/chatbot_logs.json
-3-rag_complex/db/chromadb_rag.db/*
-4-rag-pdf/chroma_db/*
-langchain/db/chromadb/*
-4-rag-pdf/pdf/*
+2-core-ai-app-skills/vectordb/db/*
+3-platforms-ecosystem/ollama-chatbot/chatbot_logs.json
+4-advanced-architectures/rag-complex/db/chromadb_rag.db/*
+4-advanced-architectures/rag-pdf/chroma_db/*
+4-advanced-architectures/langchain/db/chromadb/*
+4-advanced-architectures/rag-pdf/pdf/*
 files/*
-4-rag-pdf/demo/demo.mov
+4-advanced-architectures/rag-pdf/demo/demo.mov
+4-advanced-architectures/ai-agent/db/*
+4-advanced-architectures/ai-agent/An Vo_badge.pdf
